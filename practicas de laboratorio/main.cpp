@@ -58,7 +58,21 @@ int main()
     else {
         cout << "no es perfecto"<< endl;
     }
+
     //problema 5
+    long numerito;
+    int q=2;
+    cout << "ingrese numero a descomponer" << endl;
+    cin >>numerito;
+    while (numerito!=1){
+        if (numerito%q==0){
+            cout << q << "\t";
+            numerito=numerito/q;
+        }
+        else{
+            q=q+1;
+        }
+    }
 
 
     //practica 1_2
