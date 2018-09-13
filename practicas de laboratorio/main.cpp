@@ -47,17 +47,17 @@ int main()
     int sum=0;
     cout << "ingrese un numero para ver si es perfecto:" << endl;
     cin >> nu;
-    for (int p=1;p<nu;p++){
+    for (int p=1;p<=nu;p++){
         if (nu%p==0){
             sum=sum+p;
         }
     }
-    if(sum=nu){
-        cout << "es pefecto" << endl;
-    }
-    else {
-        cout << "no es perfecto"<< endl;
-    }
+    if ((sum-nu)==nu){
+            cout << "es perfecto" << endl;
+        }
+        else {
+            cout << "no es perfecto" << endl;
+        }
 
     //problema 5
     long numerito;
@@ -73,6 +73,7 @@ int main()
             q=q+1;
         }
     }
+    cout << endl;
 
 
     //practica 1_2
@@ -94,15 +95,15 @@ int main()
         if (s%2==0 && s<ndp){
             cout << s << ",";
         }
-        if (s==ndp){
+        if (s==ndp && s%2==0){
             cout << s << endl;
         }
     }
     //problema 3
-    int f1=1;
-    int f2=1;
-    int f3=1;
-    int valor, contador=3;
+    long long f1=1;
+    long long f2=1;
+    long long f3=1;
+    long long valor, contador=3;
     cout << "ingresa la cantidad de numeros fibonacci" << endl;
     cin >> valor;
     cout << f1 << "," << f2 << ",";
@@ -111,12 +112,12 @@ int main()
         contador++;
         f1=f2;
         f2=f3;
-        cout << f3 << ",";
+        cout << f3 << " ";
     }
-    if (f3==f3)
+
 
     //problema4
-    cout << endl;
+    /*cout << endl;
     int number;
     int ndperfectos;
     int perfecto=0;
@@ -131,15 +132,29 @@ int main()
         cout << perfecto << "," ;
     }
     cout << endl;
-
+    */
+    long long number,res;
+    cout << "numero de perfectos que hay hasta:" ;
+    cin >> number;
+    for (long long x3=2;x3<number;x3++){
+        res =0;
+        for (long long i2=1;i2<x3;i2++){
+            if (x3%i2 == 0){
+                res +=i2;
+            }
+        }
+        if (res==x3){
+            cout << x3 <<" " << endl;
+        }
+    }
     //problema 5
-    int conta=0,numo;
-    long sumaa=0;
+    long long conta=0,numo;
+    long long  sumaa=0;
     cout << "ingresa un numero" << endl;
     cin >> numo;
-    for(int a=1;a<numo;a++){
+    for(long long a=1;a<numo;a++){
         conta=0;
-        for (int b=1;b<a+1;b++){
+        for (long b=1;b<a+1;b++){
             if (a%b==0){
                 conta++;
             }
