@@ -43,10 +43,11 @@ int main()
     }
     cout << numerito;
     cout << endl;
-    //problema 4
+    /*problema 4
     int n1,n2,n3,n4,n5,n6,multi;
     int valor2=999;
-    for (int valor=999;valor>=valor2;valor=valor-1){
+    int valor;
+    for (valor=999;valor>=valor2;valor=valor-1){
         multi=valor*valor2;
         n1=multi/100000;
         n2=(multi%100000/10000);
@@ -54,21 +55,37 @@ int main()
         n4=(multi%100000/100);
         n5=(multi%100000/10);
         n6=multi%10;
-        if (n1==n6 && n2==n5 && n3==n4)
-            cout << multi << "=" << valor << "*" << valor2;
-        else
-            valor2=valor2-1;
-
+    if (n1==n6 && n2==n5 && n3==n4)
+        cout << multi << "=" << valor << "*" << valor2;
+    else
+        valor2=valor2-1;
     }
 
+    */
 
+    //problema 6
+    int x;
+    int cuadrados=0;
+    int sumadc=0;
+    int ssum=0;
+    int square=0;
+    for (int i = 1;i<=100;i++){
+        cuadrados= i*i;
+        //cout << cuadrados << " ";
+        sumadc=sumadc+cuadrados;
+        ssum= ssum+i;
 
+    }
+    square=ssum*ssum;
+    //cout << square << endl;
+    //cout << sumadc << endl;
+    cout << square-sumadc << endl;
     /*problema 7
     int cont=0;
     //int num;
     //cout << "ingresa un numero" << endl;
     //cin >> num;
-    for(int a=1;a<=10001;a++){
+    for(int a=1;a<=100001;a++){
         cont=0;
         for (int b=1;b<a+1;b++){
             if (a%b==0){
@@ -81,9 +98,24 @@ int main()
     }
     cout << endl;
     */
+    //problema 7
+    int n, p, y;
+    n = 2;
+    y = 1;
+    while(y <= 10001)
+    {
+        for(p = 2; n % p != 0; p++);
+        if(p == n){
+                y++;
+        }
+        n++;
+    }
+    cout << n-1 << endl;
+    //problema 9
+
     //problema 10
-    long long conta=0;
-    long long  sumaa=0;
+    double conta=0;
+    double  sumaa=0;
 
     for(long long a=1;a<2000000;a++){
         conta=0;
