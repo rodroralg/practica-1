@@ -14,54 +14,65 @@ int strlen(char str[]){
 //problema 1
 int suma(int sum[]){
     int suma=0;
-    for (int i=0;i<3;i++){
+    for (int i=0;i<5;i++){
         cout << sum[i] << " ";
         suma=suma+sum[i];
     }
     return suma;
 }
-//problema 2
-int menor(int men[]){
-    int menori=0;
-    for (int i;i<4;i++){
-        if (men[i]<men[i+1])
-            menori=men[i];
-    }
-    return menori;
-}
-//problema3
-int perfecto(int *arr, int l){
-    int sum=0;
-    int e;
-    int cont=0;
-    for (int x=0;x<l;x++){
-        e=arr[x];
-        sum=0;
-        for(int y=0;y<=(e/2);y++){
-            if (e%y==0){
-                sum=sum +y;
-                cout << sum << " " << e << '\n';
-            }
-        }
-        if (sum==e){
-            cont=cont+1;
-        }
-    }
-    cout << "la cantidad de num perfectos es: " << cont << '\n';
-}
 
+int menor(const int arr[], const int length){
+
+    int men=arr[0];
+    for(int i=0;i<length;i++){
+        if(arr[i]<men)
+            men=arr[i];}
+    return men;}
+//problema3
+
+//roblemna 4
+//ascende
+int ascendente( int as[],const int length){
+	int i,j,aux;
+	for(i=0;i<length;i++){
+		for(j=0;j<length-1;j++){
+			if(as[j] > as[j+1]){
+				aux = as[j];
+				as[j] = as[j+1];
+				as[j+1] = aux;
+			}
+		}
+	}
+	cout<<"ordenados de forma Ascendente: "<<endl;
+	for(i=0;i<length;i++){
+		cout<<as[i]<<" ";}
+		cout<<endl;
+}
+//desce
+int descendente( int des[], const int length){
+	int i,j,aux;
+	for(i=0;i<length;i++){
+		for(j=0;j<length-1;j++){
+			if(des[j] < des[j+1]){
+				aux = des[j];
+				des[j] = des[j+1];
+				des[j+1] = aux;
+			}
+		}
+	}
+	cout<<"ordenados de forma Descendente: "<<endl;
+	for(i=0;i<length;i++){
+		cout<<des[i]<<" ";}
+		cout<<endl;
+}
 //problema 5
 int invertir(int arr[],int l){
-    int a;
-    int len=1;
-    for (int x=0;x<(l/2);x++){
-        a=arr[x];
-        arr[x]=arr[l-(x+1)];
-        arr[l-(x+1)]= a;
-        len++;
-    }
-    for (int x=0;x<1;x++){
-        cout << arr[x] << '\t';
+
+}
+//palndrome
+bool ispalin(char carac[]){
+    for(int x=0; x<(m/2);i++){
+
     }
 }
 
@@ -73,15 +84,17 @@ int main()
     cout << strlen(stra) << endl;
 
     //problema1
-    int sum[]={1,2,4};
-    cout << "la suma es= " << suma(sum) << endl;
+    int arr[]={1,10,8,6,3};
+    cout << "la suma es= " << suma(arr) << endl;
     //problema2
-    int men[]={4,2,5,3};
-    cout << "el menor es " << menor(men) << endl;
+    cout << "el menor es " << menor(arr,3) << endl;
     //problema3
-    int arr[]={2,3,4};
-    cout << perfecto(arr,9) << endl;
+    //pr4
+    //as
+    ascendente(arr,5);
+    descendente(arr,5);
 
     return 0;
 }
+
 
