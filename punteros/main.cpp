@@ -1,60 +1,73 @@
 #include <iostream>
 
 using namespace std;
-
-void swapptr(int *ptr1,int *ptr2){
-    int temp=*ptr1;
-    *ptr1=*ptr2;
-    *ptr2=temp;
-}
-int pot(int * b,int *e){
-    int resu=1;
-    for (int i=0;i<*e;i++){
-        resu=resu * (*b);
-    }
-    return resu;
-}
-//puntero año bisiesto
-bool anhob(int *anho){
-    if (*anho%4==0 && (*anho%100!=0 || *anho%400==0)){
-        return true;
-    }
-    else
-        return false;
-
-    /*simplificado en 1 linea:
-    return (*anho % 4 ==0 && ((*anho % 100!=0) || (*anho% 400==0)));
-    */
-}
-
-bool esprim(int *n){
-    int a=0;
-    for (int i=0;i<(*n+1);i++){
-        if (*n%i==0){
-            a++;
+int suma(int *arr, int tam){
+    int res=0;
+    for(int i=0; i<tam; i++){
+        res += *(arr++);
         }
+    return res;
+}
+void inv(int *arr,int tam){
+    int *fin=arr+(tam-1);//puntero que apunta al final
+    while(arr<fin){//el ultimo puntero suempre es mayor al primero
+        int temp=*arr;
+        *arr=*fin;
+        *fin=temp;
+        arr++;
+        fin--;
     }
-    return (a==2);
+}
+void print(int *arr,int tam){
+    if(tam==0)
+        return;
+    cout << *arr++ << " ";
+    print(arr,--tam);
+}
+bool palindrome(int *arr, int tam){
+    int *fin=arr+(tam-1);
+    while(arr<fin){
+        if(*fin-- != *arr++)
+            return false;
+    }
+    return true;
+}
+int str_len(char *cad){
+    int res=0;
+    while(*cad++ != '\0')
+        res++;
+    return res;
+}
+void str_cpy(char *cad1, char *cad2){
+    while(*cad1!='\0'){
+        *cad2=*cad1;
+        cad2++;
+        cad1++;
+    }
+
 }
 
 int main()
 {
-
-    int x=5;
-    int y=10;
-    swapptr(&x,&y);
-    cout << x << " and " << y << endl;
-    //potencia
-    int b=2;
-    int e=6;
-    cout << pot(&b,&e) << endl;
-    /*pun
-    int anho=2016;
-    cout << anhob(&anho) << endl;
-    */
-    //primos
-    int n=2;
-    cout << esprim(&n) << endl;
-    return 0;
+    int arr[]={4,2,10,30,20};
+    int *ptr=arr;
+    /*cout << *ptr << endl;
+    cout << *(ptr+3) << endl;
+    cout << *arr << endl;
+    ptr++;
+    cout << *ptr << endl;
+    cout << ptr << endl;
+    cout << arr << endl;*/
+    cout << suma(arr,5) << endl;
+    inv(arr,5);
+    print(arr,5);
+    cout << endl;
+    cout << palindrome(arr,5) << endl;
+    char cadena[]="golaso";
+    cout << str_len(cadena) << endl;
+    char cadena1[]={"hola"};
+    char cadena2[20];
+    str_cpy(cadena1,cadena2);
+    cout << cadena2 << endl;
 }
 
