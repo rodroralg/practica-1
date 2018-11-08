@@ -1,0 +1,236 @@
+# depslib dependency file v1.0
+1541520850 source:c:\users\alumno-g\desktop\animal\main.cpp
+	<iostream>
+	"animal.h"
+	"perro.h"
+	"loro.h"
+	"gato.h"
+
+1541520743 source:c:\users\alumno-g\desktop\animal\src\animal.cpp
+	"animal.h"
+	<iostream>
+
+1541521383 c:\users\alumno-g\desktop\animal\include\animal.h
+	<iostream>
+
+1541520686 source:c:\users\alumno-g\desktop\animal\src\gato.cpp
+	"gato.h"
+	<iostream>
+	"animal.h"
+
+1541521195 c:\users\alumno-g\desktop\animal\include\gato.h
+	"animal.h"
+	<iostream>
+
+1541520770 source:c:\users\alumno-g\desktop\animal\src\loro.cpp
+	"loro.h"
+	<iostream>
+	"animal.h"
+
+1541521145 c:\users\alumno-g\desktop\animal\include\loro.h
+	"animal.h"
+	<iostream>
+
+1541521013 source:c:\users\alumno-g\desktop\animal\src\perro.cpp
+	"perro.h"
+	"animal.h"
+	<iostream>
+
+1541521145 c:\users\alumno-g\desktop\animal\include\perro.h
+	"animal.h"
+	<iostream>
+
+1541567626 source:h:\c++\animal\main.cpp
+	<iostream>
+	"animal.h"
+	"perro.h"
+	"loro.h"
+	"gato.h"
+
+1541521384 h:\c++\animal\include\animal.h
+	<iostream>
+
+1541521146 h:\c++\animal\include\perro.h
+	"animal.h"
+	<iostream>
+
+1541521146 h:\c++\animal\include\loro.h
+	"animal.h"
+	<iostream>
+
+1541567280 h:\c++\animal\include\gato.h
+	"animal.h"
+	<iostream>
+
+1541520744 source:h:\c++\animal\src\animal.cpp
+	"animal.h"
+	<iostream>
+
+1541567302 source:h:\c++\animal\src\gato.cpp
+	"gato.h"
+	<iostream>
+	"animal.h"
+
+1541520772 source:h:\c++\animal\src\loro.cpp
+	"loro.h"
+	<iostream>
+	"animal.h"
+
+1541521014 source:h:\c++\animal\src\perro.cpp
+	"perro.h"
+	"animal.h"
+	<iostream>
+
+1541572562 source:h:\c++\nueva carpeta\animal\src\animal.cpp
+	"animal.h"
+	<iostream>
+
+1541569774 h:\c++\nueva carpeta\animal\include\animal.h
+	<iostream>
+
+1541567302 source:h:\c++\nueva carpeta\animal\src\gato.cpp
+	"gato.h"
+	<iostream>
+	"animal.h"
+
+1541567280 h:\c++\nueva carpeta\animal\include\gato.h
+	"animal.h"
+	<iostream>
+
+1541520772 source:h:\c++\nueva carpeta\animal\src\loro.cpp
+	"loro.h"
+	<iostream>
+	"animal.h"
+
+1541521146 h:\c++\nueva carpeta\animal\include\loro.h
+	"animal.h"
+	<iostream>
+
+1541521014 source:h:\c++\nueva carpeta\animal\src\perro.cpp
+	"perro.h"
+	"animal.h"
+	<iostream>
+
+1541521146 h:\c++\nueva carpeta\animal\include\perro.h
+	"animal.h"
+	<iostream>
+
+1541572460 source:h:\c++\nueva carpeta\animal\main.cpp
+	<iostream>
+	"animal.h"
+	"perro.h"
+	"loro.h"
+	"gato.h"
+	"animalarray.h"
+
+1541572280 source:h:\c++\nueva carpeta\animal\src\animalarray.cpp
+	"animalarray.h"
+	<iostream>
+	"animal.h"
+
+1541572206 h:\c++\nueva carpeta\animal\include\animalarray.h
+	<iostream>
+	"animal.h"
+
+1541687403 source:d:\c++\animal\main.cpp
+	<iostream>
+	"animal.h"
+	"perro.h"
+	"loro.h"
+	"gato.h"
+	"animalarray.h"
+
+1541569774 d:\c++\animal\include\animal.h
+	<iostream>
+
+1541521146 d:\c++\animal\include\perro.h
+	"animal.h"
+	<iostream>
+
+1541687356 d:\c++\animal\include\loro.h
+	"animal.h"
+	<iostream>
+
+1541687171 d:\c++\animal\include\gato.h
+	"animal.h"
+	<iostream>
+
+1541572206 d:\c++\animal\include\animalarray.h
+	<iostream>
+	"animal.h"
+
+1541572562 source:d:\c++\animal\src\animal.cpp
+	"animal.h"
+	<iostream>
+
+1541572280 source:d:\c++\animal\src\animalarray.cpp
+	"animalarray.h"
+	<iostream>
+	"animal.h"
+
+1541687230 source:d:\c++\animal\src\gato.cpp
+	"gato.h"
+	<iostream>
+	"animal.h"
+
+1541687541 source:d:\c++\animal\src\loro.cpp
+	"loro.h"
+	<iostream>
+	"animal.h"
+
+1541521014 source:d:\c++\animal\src\perro.cpp
+	"perro.h"
+	"animal.h"
+	<iostream>
+
+1541687542 source:d:\animal\main.cpp
+	<iostream>
+	"animal.h"
+	"perro.h"
+	"loro.h"
+	"gato.h"
+	"animalarray.h"
+
+1541569774 d:\animal\include\animal.h
+	<iostream>
+
+1541687582 d:\animal\include\perro.h
+	"animal.h"
+	<iostream>
+
+1541687358 d:\animal\include\loro.h
+	"animal.h"
+	<iostream>
+
+1541687172 d:\animal\include\gato.h
+	"animal.h"
+	<iostream>
+
+1541572206 d:\animal\include\animalarray.h
+	<iostream>
+	"animal.h"
+
+1541572562 source:d:\animal\src\animal.cpp
+	"animal.h"
+	<iostream>
+
+1541572280 source:d:\animal\src\animalarray.cpp
+	"animalarray.h"
+	<iostream>
+	"animal.h"
+
+1541687232 source:d:\animal\src\gato.cpp
+	"gato.h"
+	<iostream>
+	"animal.h"
+
+1541687542 source:d:\animal\src\loro.cpp
+	"loro.h"
+	<iostream>
+	"animal.h"
+
+1541687568 source:d:\animal\src\perro.cpp
+	"perro.h"
+	"animal.h"
+	<iostream>
+
