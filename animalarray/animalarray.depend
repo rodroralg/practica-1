@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1542123742 source:c:\users\alumno-g\desktop\animalarray\main.cpp
+	<iostream>
+	"animal.h"
+	"animalarray.h"
+	"loro.h"
+	"perro.h"
+	"gato.h"
+
+1542123614 source:c:\users\alumno-g\desktop\animalarray\src\animal.cpp
+	"animal.h"
+
+1542123100 c:\users\alumno-g\desktop\animalarray\include\animal.h
+	<iostream>
+
+1542123364 source:c:\users\alumno-g\desktop\animalarray\src\gato.cpp
+	"gato.h"
+	<iostream>
+
+1542123100 c:\users\alumno-g\desktop\animalarray\include\gato.h
+	<iostream>
+	"animal.h"
+
+1542123364 source:c:\users\alumno-g\desktop\animalarray\src\loro.cpp
+	"loro.h"
+	<iostream>
+
+1542123364 c:\users\alumno-g\desktop\animalarray\include\loro.h
+	<iostream>
+	"animal.h"
+
+1542123364 source:c:\users\alumno-g\desktop\animalarray\src\perro.cpp
+	"perro.h"
+	<iostream>
+
+1542123364 c:\users\alumno-g\desktop\animalarray\include\perro.h
+	<iostream>
+	"animal.h"
+
+1542123100 source:c:\users\alumno-g\desktop\animalarray\src\animalarray.cpp
+	"animalarray.h"
+	<iostream>
+	"animal.h"
+
+1542123374 c:\users\alumno-g\desktop\animalarray\include\animalarray.h
+	"animal.h"
+
+1542123742 source:d:\hoy\animalarray\main.cpp
+	<iostream>
+	"animal.h"
+	"animalarray.h"
+	"loro.h"
+	"perro.h"
+	"gato.h"
+
+1542123100 d:\hoy\animalarray\include\animal.h
+	<iostream>
+
+1542123374 d:\hoy\animalarray\include\animalarray.h
+	"animal.h"
+
+1542123364 d:\hoy\animalarray\include\loro.h
+	<iostream>
+	"animal.h"
+
+1542123364 d:\hoy\animalarray\include\perro.h
+	<iostream>
+	"animal.h"
+
+1542123100 d:\hoy\animalarray\include\gato.h
+	<iostream>
+	"animal.h"
+
+1542123969 source:d:\hoy\animalarray\src\animal.cpp
+	"animal.h"
+	<iostream>
+
+1542123100 source:d:\hoy\animalarray\src\animalarray.cpp
+	"animalarray.h"
+	<iostream>
+	"animal.h"
+
+1542123989 source:d:\hoy\animalarray\src\gato.cpp
+	"gato.h"
+	<iostream>
+
+1542123364 source:d:\hoy\animalarray\src\loro.cpp
+	"loro.h"
+	<iostream>
+
+1542123364 source:d:\hoy\animalarray\src\perro.cpp
+	"perro.h"
+	<iostream>
+
