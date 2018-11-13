@@ -9,10 +9,10 @@ animal::animal()
 }
 
 /*
-animal::animal(string n, int p)
+animal::animal(string _n, int _p)
 {
-    nombre=n;
-    nrodepatas=p;
+    nombre=_n;
+    nrodepatas=_p;
 }
 */
 void animal::habla()

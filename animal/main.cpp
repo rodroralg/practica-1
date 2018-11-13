@@ -16,13 +16,24 @@ int main()
 
     loro l("yayo", 2, "taki taki");
     //l.habla();
+
+
+
+    //animal array
     animal arr[]={a,g,l};
     int size =sizeof(arr)/sizeof(arr[0]);
 
     animalarray an(arr, size);
     animalarray an2=an;
 
+
+    cout << endl;
+    an2.push_back(g);
     an2.print();
+    cout << endl;
+    an2.insert(0,l);
+    //an2.print();
+
 
 
     return 0;
