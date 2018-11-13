@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1542084904 source:d:\c++\class en c++\clase generica point\main.cpp
+	<iostream>
+
+1542084915 source:d:\c++\class en c++\clase generica point\src\point.cpp
+	"point.h"
+	<iostream>
+
+1542084904 d:\c++\class en c++\clase generica point\include\point.h
+
