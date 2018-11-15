@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1542291237 source:d:\hoy\class en c++\pointarray generico\main.cpp
+	<iostream>
+	"src\point.cpp"
+	"src\pointarray.cpp"
+
+1542290855 source:d:\hoy\class en c++\pointarray generico\src\point.cpp
+	"point.h"
+	<iostream>
+
+1542290855 d:\hoy\class en c++\pointarray generico\include\point.h
+
+1542291035 source:d:\hoy\class en c++\pointarray generico\src\pointarray.cpp
+	"pointarray.h"
+	"point.h"
+	<iostream>
+
+1542291035 d:\hoy\class en c++\pointarray generico\include\pointarray.h
+	"point.h"
+	<iostream>
+
+1542290855 d:\hoy\class en c++\pointarray generico\src\point.cpp
+	"point.h"
+	<iostream>
+
+1542291035 d:\hoy\class en c++\pointarray generico\src\pointarray.cpp
+	"pointarray.h"
+	"point.h"
+	<iostream>
+
